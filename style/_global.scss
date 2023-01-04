@@ -1,0 +1,97 @@
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: $primary_bg;
+}
+
+.input-group {
+  width: 66%;
+
+  @include media-breakpoint-down(lg) {
+    width: 100%;
+  }
+}
+
+.navbar {
+  .navbar-brand {
+    color: $accent;
+    font-family: "McLaren", cursive;
+    font-size: 22px;
+    font-weight: map-get($font_weight, bold);
+
+    span {
+      color: $button_color;
+    }
+  }
+}
+
+.menu-wrapper {
+  margin-top: 30px;
+
+  a {
+    margin: 0 16px;
+  }
+  .active {
+    border: 4px;
+    border-bottom: 1px solid $button_color;
+  }
+}
+
+.carousel {
+  margin-top: 15px;
+
+  @include media-breakpoint-down(md) {
+    margin-top: 170px;
+  }
+}
+
+.form-control {
+  background-color: #f8f7f5 !important;
+  border: none;
+}
+
+.btn-outline-secondary {
+  border: none;
+}
+
+.btn {
+  background-color: #f8f7f5;
+}
+
+.popular {
+  margin-top: 56px;
+
+  a {
+    color: #828282;
+    font-size: 18px;
+  }
+}
+
+.card-body {
+  p {
+    margin-bottom: 0 !important;
+  }
+
+  .title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+footer{
+    .navbar-brand {
+        color: $accent;
+        font-family: "McLaren", cursive;
+        font-size: 22px;
+        font-weight: map-get($font_weight, bold);
+    
+        span {
+          color: $button_color;
+        }
+      }
+}

@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=McLaren&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap");
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+}
+
+* {
+  list-style: none;
+  text-decoration: none !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+}
+
+.input-group {
+  width: 66%;
+}
+@media (max-width: 991.98px) {
+  .input-group {
+    width: 100%;
+  }
+}
+
+.navbar .navbar-brand {
+  color: #463c74;
+  font-family: "McLaren", cursive;
+  font-size: 22px;
+  font-weight: 700;
+}
+.navbar .navbar-brand span {
+  color: #b4d51e;
+}
+
+.menu-wrapper {
+  margin-top: 30px;
+}
+.menu-wrapper a {
+  margin: 0 16px;
+}
+.menu-wrapper .active {
+  border: 4px;
+  border-bottom: 1px solid #b4d51e;
+}
+
+.carousel {
+  margin-top: 15px;
+}
+@media (max-width: 767.98px) {
+  .carousel {
+    margin-top: 170px;
+  }
+}
+
+.form-control {
+  background-color: #f8f7f5 !important;
+  border: none;
+}
+
+.btn-outline-secondary {
+  border: none;
+}
+
+.btn {
+  background-color: #f8f7f5;
+}
+
+.popular {
+  margin-top: 56px;
+}
+.popular a {
+  color: #828282;
+  font-size: 18px;
+}
+
+.card-body p {
+  margin-bottom: 0 !important;
+}
+.card-body .title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer .navbar-brand {
+  color: #463c74;
+  font-family: "McLaren", cursive;
+  font-size: 22px;
+  font-weight: 700;
+}
+footer .navbar-brand span {
+  color: #b4d51e;
+}/*# sourceMappingURL=main.css.map */
